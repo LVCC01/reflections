@@ -7,9 +7,11 @@ it is one level away from committing. It gives us control on which files needed 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+compare the file in staging area with the last committed file-check the number of logical changes and then commit by adding a commit message
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+adding a new feature, making some experimental changes 
 
 How do the diagrams help you visualize the branch structure?
 
