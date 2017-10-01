@@ -14,9 +14,17 @@ organized? How would branches help?
 adding a new feature, making some experimental changes 
 
 How do the diagrams help you visualize the branch structure?
+it tells which was the last common commit between the two branches
+which are the different commits on each branch
+how many branches are there
+is there any unreachable commit
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging two branches together will bring in the changes of the two branches in one branch (master). 
+The diagram helps in finding the point where the branches split and what chnages are included in the merge 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+automatic merging might create issues which the programmer might not be aware of.
+manual merging gives total control of what goes into the final version
